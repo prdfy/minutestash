@@ -7,6 +7,8 @@
     "test": "test"
   },
   "scripts": {
+    "lint": "web-ext lint --source-dir=minutestash",
+    "build": "web-ext build --source-dir=minutestash --artifacts-dir=dist --overwrite-dest",
     "test": "echo \"Use npm run test:playwright:local or npm run test:playwright:live\"",
     "test:playwright:local": "node test/test-extension.js --mode=local",
     "test:playwright:live": "node test/test-extension.js --mode=live"
@@ -14,6 +16,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "web-ext": "^8.4.0"
+  },
   "type": "commonjs",
   "dependencies": {
     "playwright": "^1.59.1"

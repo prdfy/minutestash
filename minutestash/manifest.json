@@ -12,7 +12,7 @@
     "96": "icons/icon96.svg"
   },
   "browser_specific_settings": {
-    "gecko": { "id": "minutestash@example.com" }
+    "gecko": { "id": "minutestash@prdfy.github.com" }
   },
   "browser_action": {
     "default_popup": "popup.html",
