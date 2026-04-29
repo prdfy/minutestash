@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="64"
+   height="64"
+   viewBox="0 0 64 64"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="newicon.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5" />
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.160318"
+     inkscape:cx="-145.64972"
+     inkscape:cy="-117.20924"
+     inkscape:window-width="1464"
+     inkscape:window-height="921"
+     inkscape:window-x="49"
+     inkscape:window-y="1113"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5"
+     showgrid="false" />
+  <!-- Document -->
+  <path
+     id="rect1"
+     style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#6264a7;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     d="m 18,8 22.006658,0.070303 c 0,0 11.993342,12.043424 11.993342,11.957722 V 49.314544 C 52,52.638544 49.324,56 46,56 H 18 c -3.324,0 -6,-2.676 -6,-6 V 14 c 0,-3.324 2.676017,-6.0106189 6,-6 z"
+     sodipodi:nodetypes="scsssssss" />
+  <polygon
+     points="40,8 52,20 40,20"
+     fill="#7B83EB"
+     id="polygon1" />
+  <!-- Text lines -->
+  <rect
+     x="18"
+     y="22"
+     width="28"
+     height="4"
+     rx="2"
+     fill="#FFFFFF"
+     opacity="0.9"
+     id="rect2" />
+  <rect
+     x="18"
+     y="30"
+     width="20.663187"
+     height="4"
+     rx="2"
+     fill="#ffffff"
+     opacity="0.9"
+     id="rect3" />
+  <rect
+     x="18"
+     y="38"
+     width="10.136727"
+     height="4"
+     rx="2"
+     fill="#ffffff"
+     opacity="0.9"
+     id="rect4" />
+  <!-- Chat bubble overlay -->
+  <g
+     id="g2"
+     transform="translate(0,-2)">
+    <line
+       x1="41.397293"
+       y1="38.639908"
+       x2="41.397293"
+       y2="48.639908"
+       stroke="#ffffff"
+       stroke-width="3"
+       stroke-linecap="round"
+       id="line1" />
+    <polyline
+       points="28,34 32,38 36,34"
+       fill="none"
+       stroke="#ffffff"
+       stroke-width="3"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="polyline1"
+       transform="translate(9.3972915,10.639909)" />
+    <line
+       x1="35.397293"
+       y1="52.639908"
+       x2="47.397293"
+       y2="52.639908"
+       stroke="#ffffff"
+       stroke-width="3"
+       stroke-linecap="round"
+       id="line2" />
+  </g>
+</svg>

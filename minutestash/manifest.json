@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "minutestash",
+  "version": "1.0",
+  "description": "Extracts and downloads Microsoft Teams meeting transcripts as plain text.",
+  "permissions": ["activeTab", "tabs", "downloads", "storage", "https://*.sharepoint.com/*"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "48": "icons/icon48.svg",
+    "96": "icons/icon96.svg"
+  },
+  "browser_specific_settings": {
+    "gecko": { "id": "minutestash@example.com" }
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/icon48.svg",
+      "96": "icons/icon96.svg"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://teams.microsoft.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
