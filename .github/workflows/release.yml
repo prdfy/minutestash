@@ -46,7 +46,19 @@ jobs:
 
       - name: Rename artifact
         run: |
-          mv dist/minutestash-*.zip dist/minutestash-${{ steps.version.outputs.VERSION }}.zip
+          shopt -s nullglob
+          files=(dist/minutestash-*.zip)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "No build artifact found in dist/."
+            exit 1
+          fi
+          src="${files[0]}"
+          target="dist/minutestash-${{ steps.version.outputs.VERSION }}.zip"
+          if [ "$src" = "$target" ]; then
+            echo "Artifact already named $target"
+          else
+            mv "$src" "$target"
+          fi
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
